@@ -68,10 +68,75 @@ var personas = [{
 var id =11;
 
 
+var product = [{
+  "id": 1,
+  "nombre": "Celular",
+  "cantidad": 15,
+  "precio": 65000
+}, {
+  "id": 2,
+ "nombre": "Monitor",
+  "cantidad": 0,
+  "precio": 35000
+}, {
+  "id": 3,
+  "nombre": "Procesador i9",
+  "cantidad": 3,
+  "precio": 85000
+}, {
+  "id": 4,
+  "nombre": "Módem",
+  "cantidad": 9,
+  "precio": 12500
+}, {
+  "id": 5,
+  "nombre": "Pendrive 1T",
+  "cantidad": 80,
+  "precio": 8600
+}, {
+  "id": 6,
+  "nombre": "Mouse",
+  "cantidad": 19,
+  "precio": 7000
+}, {
+  "id": 7,
+  "nombre": "Laptop",
+  "cantidad": 4,
+  "precio": 265000
+}, {
+  "id": 8,
+  "nombre": "Teclado",
+  "cantidad": 6,
+  "precio": 5000
+}, {
+  "id": 9,
+  "nombre": "Webcam",
+  "cantidad": 1,
+  "precio": 14800
+}, {
+  "id": 10,
+  "nombre": "Placa de video",
+  "cantidad": 0,
+  "precio": 195490
+}, {
+  "id": 11,
+  "nombre": "Router",
+  "cantidad": 6,
+  "precio": 9000
+}];
 
 app.get("/autos",function(req,res){
    
  res.send(personas);    
+
+        return;
+   
+   
+    
+});
+app.get("/productos",function(req,res){
+   
+ res.send(product);    
 
         return;
    
